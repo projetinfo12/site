@@ -1,0 +1,27 @@
+body{
+	background-image:url("../media/menu-tropico.png");
+	background-size:cover;
+}
+.titresommaire{
+	font-size:75px;
+	text-align:center;
+	text-decoration:underline;
+}
+.sommaire{
+	background-color:yellowgreen;
+}
+ul{
+	font-size:x-large;
+	color:red;
+}
+.pageprec{
+	margin-left:10%;
+}
+.pagesuiv{
+	padding-right:10%;
+	
+}
+.imgbasdepage{
+	height:auto;
+	width:10%;
+}
