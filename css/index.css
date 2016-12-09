@@ -14,8 +14,8 @@ ul{
 }
 .sommaireimg{
 	margin-left:6%;
-	height:auto;
-	width:10%;
+	height:200px;
+	width:auto;
 }
 .article{
 	background-color:white;
@@ -29,4 +29,12 @@ ul{
 #musique{
 	text-decoration:none;
 	font-size:22px;
+}
+footer{
+	text-align:center;
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom:20px;
+	color:red;
+	font-size:large;
 }
