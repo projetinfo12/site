@@ -1,6 +1,7 @@
 body{
 	background-image:url("../media/menu-tropico.png");
 	background-size:cover;
+	font-family:arial;
 }
 .titresommaire{
 	font-size:75px;
@@ -12,10 +13,31 @@ ul{
 	font-size:x-large;
 	color:red;
 }
-.sommaireimg{
-	margin-left:6%;
+.sommaireimg1{
+	margin-left:15%;
 	height:200px;
 	width:auto;
+}
+.sommairelgd1{
+	margin-left:15%;
+	border:solid;
+	border-color:red;
+}
+.sommaireimg2{
+	margin-left:25%;
+	height:200px;
+	width:auto;
+}
+.sommairelgd2{
+	margin-left:40%;
+}
+.sommaireimg3{
+	margin-left:20%;
+	height:200px;
+	width:auto;
+}
+.sommairelgd3{
+	margin-left:60%;
 }
 .article{
 	background-color:white;
