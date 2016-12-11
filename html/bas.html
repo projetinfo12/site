@@ -11,7 +11,10 @@
 		<input type="email" required="required" name="email" value="mail" />
 		<br><br>
 	<label for="portable">T&eacute;l&eacute;phone portable : </label>
-		<input type="tel" optional="optional" name="number" value="0x xx xx xx xx" />
+		<input pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" type="tel" optional="optional" name="number" value="0x xx xx xx xx" />
+		<br><br>
+	<label for="age">Entrer votre &acirc;ge : </label>
+		<input type="number" value="0" min="0" max="999" name="howmuch">
 		<br><br>
 	<label for="naisssance">Date de naissance : </label>
 		<input type="date" optional="optional" name="number" value="jj-mm-aaaa" />
@@ -21,11 +24,11 @@
 		<br><br>
 	<label for="paysvillecp">Pays, Ville et code postal * : </label>
 		<input type="text" required="required" name="text" value="" />
-		<br>
-	<label for="couleur"> Choisissez votre couleur : </label>
+		<br><br>
+	<label for="couleur">Choisissez votre couleur : </label>
 		<input type="color" value="#fad345" name="textcolor"/>
-		<br>
-	<p class="sousligne"> Sexe :</p>
+		<br><br>
+	<p class="sousligne">Sexe :</p>
 	<label for="male" checked="check">Homme</label>
 		<input type="radio" class="rad" name="gender" id="male" value="male">
 		<br>
