@@ -1,5 +1,8 @@
 
+.sousligne{
+	text-decoration:underline;
 }
+
 input{
     border-color:yellow;
     color:#000080;
