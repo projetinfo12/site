@@ -1,7 +1,6 @@
-.hauteur{
-    height:10;
-        }
-
-.larg{
-     width:100;
+.taille{
+    margin-left:100;
 }
+input{
+    color:yellowgreen;
+    }
