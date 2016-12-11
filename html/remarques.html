@@ -21,7 +21,7 @@ https://validator.w3.org/#validate_by_input pour le validateur
 		<input type="number" value="0" min="0" max="99" name="howmuch">
 		<br><br>
 	<label for="naisssance">Date de naissance : </label>
-		<input type="date" optional="optional" name="number" value="jj-mm-aaaa" />
+		<input type="date" optional="optional" name="number" value="DD-MM-YYYY" />
 		<br><br>
 	<label for="jour">Jour actuel * : </label>
 		<input type="datetime-local" required="required" name="number" value="heure(s), minute(s)" />
@@ -33,7 +33,7 @@ https://validator.w3.org/#validate_by_input pour le validateur
 		<input type="color" value="#fad345" name="textcolor"/>
 		<br><br>
 	<p class="sousligne">Sexe :</p>
-	<label for="male" checked="check">Homme</label>
+	<label for="male">Homme</label>
 		<input type="radio" class="rad" name="gender" id="male" value="male">
 		<br>
 	<label for="female">Femme</label>
@@ -43,12 +43,12 @@ https://validator.w3.org/#validate_by_input pour le validateur
  		<input type="radio" class="rad" name="gender" id="other" value="other">
 		<br>
 	<label for="optionnel">Texte optionnel : </label>
-	<textarea id="message" optional="optional"></textarea>
+	<textarea id="message" ></textarea>
 		<br><br>
 	Les champs mentionn&eacute;s d'un * sont obligatoires. 
 	<br><br>
-	<input type="submit" id="survol" name="valider" value="submit">
-	<input type="reset" id="survol" value="reset">
+	<input type="submit" class="survol" name="valider" value="submit">
+	<input type="reset" class="survol" value="reset">
 
 </form>
 <br>
