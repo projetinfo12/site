@@ -7,29 +7,35 @@
 <body>
 
 <form>
-	<label for="optionnel">Texte optionnel : <input maxlength="1000" type="text" name="text" optional="optional" value="(1000 caract&egrave;res au maximum)" />
-	<br><br>
-	<label for="email">Adresse e-mail * : <input type="email" required="required" name="email" value="mail" />
-	<br><br>
-	<label for="portable">T&eacute;l&eacute;phone portable : <input type="tel" optional="optional" name="number" value="0x xx xx xx xx" />
-	<br><br>
-	<label for="naisssance">Date de naissance : <input type="date" optional="optional" name="number" value="jj-mm-aaaa" />
-	<br><br>
-	<label for="jour">Jour actuel * : <input type="datetime-local" required="required" name="number" value="heure(s), minute(s)" />
-	<br><br>
-	<label for="paysvillecp">Pays, Ville et code postal * : <input type="text" required="required" name="text" value="" />
-	<br><br>
-	<p> Sexe : </p>
+	<label for="optionnel">Texte optionnel : </label>
+		<input maxlength="1000" type="text" name="text" optional="optional" value="(1000 caract&egrave;res au maximum)" />
+		<br><br>
+	<label for="email">Adresse e-mail * : </label>
+		<input type="email" required="required" name="email" value="mail" />
+		<br><br>
+	<label for="portable">T&eacute;l&eacute;phone portable : </label>
+		<input type="tel" optional="optional" name="number" value="0x xx xx xx xx" />
+		<br><br>
+	<label for="naisssance">Date de naissance : </label>
+		<input type="date" optional="optional" name="number" value="jj-mm-aaaa" />
+		<br><br>
+	<label for="jour">Jour actuel * : </label>
+		<input type="datetime-local" required="required" name="number" value="heure(s), minute(s)" />
+		<br><br>
+	<label for="paysvillecp">Pays, Ville et code postal * : </label>
+		<input type="text" required="required" name="text" value="" />
+		<br><br>
+	<p class="sousligne"> Sexe :</p>
 	<label for="male" checked="check">Homme</label>
-	<input type="radio" name="gender" id="male" value="male">
-	<br>
+		<input type="radio" name="gender" id="male" value="male">
+		<br>
 	<label for="female">Femme</label>
-	<input type="radio" name="gender" id="female" value="female">
-	<br>
+		<input type="radio" name="gender" id="female" value="female">
+		<br>
 	<label for="other">Autre</label>
- 	<input type="radio" name="gender" id="other" value="other">
-	<br><br>
-	<p> Les champs mentionn&eacute;s d'un * sont obligatoires. </p>
+ 		<input type="radio" name="gender" id="other" value="other">
+		<br><br>
+	Les champs mentionn&eacute;s d'un * sont obligatoires.
 	<input type="submit" value="submit">
 	<input type="reset" value="reset">
 
