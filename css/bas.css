@@ -27,7 +27,7 @@ body{
     background-image:url("../media/questions.jpg");
     color:MidnightBLue;
     width:bolder; 
-    text-decoration:overline;
+    text-decoration:overline:white;
 }
 
 label{
