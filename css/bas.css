@@ -18,6 +18,11 @@ textarea{
     height: 5em;
 }
 
+#message{
+	border-color:yellow;
+	
+}
+
 .titre{
     color:#8A2BE2;
     width:bolder;  
