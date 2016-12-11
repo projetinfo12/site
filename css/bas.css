@@ -12,10 +12,11 @@ input{
 
 .titre{
     color:#8A2BE2;
-    width:bold;  
+    width:bolder;  
 }
 
 body{
     background-image:url("../media/questions.jpg");
     color:red;
+    width:bolder;
 }
