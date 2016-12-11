@@ -6,7 +6,7 @@
 	text-decoration:underline;
 }
 
-#survol:hover{
+.survol:hover{
 	color:blue;
 	background:transparent;
 	border:1px;
