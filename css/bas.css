@@ -5,12 +5,12 @@ input{
     border-color:yellow;
     color:red;
     }
-.body{
+.img{
     background-image: ../media/questions.jpg;
     
 }
 
-.head{
+.titre{
     color:#8A2BE2;
     
 }
