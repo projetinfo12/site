@@ -3,7 +3,7 @@
 }
 input{
     border-color:yellow;
-    font-color:#000080;
+    color:#000080;
     }
 .img{
     background-color:#C0C0C0;
@@ -17,5 +17,5 @@ input{
 
 body{
     background-image:url("../media/questions.jpg");
-    color:yellow;
+    color:red;
 }
