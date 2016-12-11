@@ -7,17 +7,17 @@
 <body>
 
 <form>
-	Texte optionnel : <input maxlength=1000 type="text" name="" calss="larg" class="hauteur" class="opt" value="(1000 caract&egrave;res au maximum)" />
+	Texte optionnel : <input maxlength=1000 type="text" name="" optional="optional" calss="larg" class="hauteur" value="(1000 caract&egrave;res au maximum)" />
 	<br>
-	Adresse e-mail : <input type="email" name="" class="nopt" value="mail" />
+	Adresse e-mail * : <input type="email" required="required" name="" value="mail" />
 	<br>
-	T&eacute;l&eacute;phone portable : <input type="tel" name="" class="nopt" value="0x xx xx xx xx" />
+	T&eacute;l&eacute;phone portable : <input type="tel" optional="optional" name="" value="0x xx xx xx xx" />
 	<br>
-	Date de naisssance : <input type="date" name="" class="opt" value="jj-mm-aaaa" />
+	Date de naisssance : <input type="date" optional="optional" name="" value="jj-mm-aaaa" />
 	<br>
-	Jour actuel : <input type="datetime-local" name="" class="nopt" value="heure(s), minute(s)" />
+	Jour actuel * : <input type="datetime-local" required="required" name="" value="heure(s), minute(s)" />
 	<br>
-	Pays, Ville et code postal : <input type="text" name="" class="nopt" value="" />
+	Pays, Ville et code postal * : <input type="text" required="required" name="" value="" />
 	<br>
 	<label for="male">Male</label>
 	<input type="radio" name="gender" id="male" value="male">
