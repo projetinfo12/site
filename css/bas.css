@@ -1,7 +1,15 @@
 .opt{
-    :optional
+    :optional;
     }
     
 .nopt{
-      :required
+      :required;
       }
+
+.hauteur{
+    height:10;
+        }
+
+.larg{
+     width:100;
+}
