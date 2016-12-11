@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<!doctype html>
+<html lang="fr">
 <head>
-    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+	<meta charset="utf-8">
+	<meta name="author" content="Alexandre Porcherot, Theotime Philippe">
     <title>Syst&egrave;me de jeu</title>
 	<link rel="stylesheet" type="text/css" href="../css/gameplay.css">
  </head>
  <body >
-<div class="sommaire">
+<nav class="sommaire" id="2">
 <br />
+<h2>Sommaire</h2>
 	<ul>
 		<li>
 			<a href="index.html">Introduction</a>
@@ -26,24 +25,66 @@
 		</li>
 	</ul>
 <br />
-</div>
+</nav>
 <hr />
-<p>
+<article class="article">
 
-blabla
+<h2>Modes de jeu</h2>
+<h3>Campagne</h3>
+La campagne de Tropico 4 prend la suite des &eacute;v&egrave;nements de Tropico 3: Absolute Power. Elle comprend 20 missions qui se distinguent en 3 phases :
+	<ul>
+		<li>Mont&eacute;e au pouvoir : El Presidente arrive sur sa nouvelle &icirc;le, o&ugrave; il commence son projet de construction d'une nation id&eacute;ale pour son peuple. Pour ce faire, il organise l'&eacute;conomie, la basant principalement sur l'agriculture (culture du tabac, du sucre et du caf&eacute;), puis sur l'industrie en lien avec ces cultures (usines de cigares, distillerie de rhum…). Cependant, il est &eacute;vinc&eacute; du pouvoir quand il fut condamn&eacute; par les Nations unies d'avoir fait assassin&eacute; le pr&eacute;sident des &eacute;tats-unis d'Am&eacute;rique ( parodie de l'assassinat du pr&eacute;sident Kennedy). Il est donc forc&eacute; de fuir son pays, et d'aller s'installer dans d'autres &icirc;les de l'archipel.</li>
+		<li>La Revanche : Forc&eacute; de prendre une nouvelle identit&eacute; et de fuir sa r&eacute;publique, El Presidente entame son plan de vengeance en &eacute;tablissant une base &agrave; Isla Oscura. &agrave; partir de cette derni&egrave;re, il cible plusieurs conspirateurs, dont Keith Preston, le Pr&eacute;sident de Fruitas (parodie de la United Fruit Company), le r&eacute;volutionnaire Marco Moreno (une autre parodie, de Che Guevara cette fois-ci), l'Inspecteur Brunhilde Von Hoof de l'ONU et le Generalissimo Santana (votre parrain au d&eacute;but du jeu&#160;!). Apr&egrave;s les avoir &eacute;limin&eacute;s, il apprend la v&eacute;rit&eacute; et d&eacute;cide de retourner sur son &icirc;le.</li>
+		<li>Le Retour d'El Presidente : Apr&egrave;s &ecirc;tre revenu, il retrouve son &icirc;le encore plus pauvre qu'avant sa prise du pouvoir initiale, et se doit de la reconstruire. Cependant, la Perestroika affaiblit l'URSS et Tropico offre son assistance en &eacute;change de la v&eacute;rit&eacute; concernant l'assassinat. El Presidente d&eacute;couvre alors le responsable, le s&eacute;nateur US Nick Richards (parodie de Richard Nixon). Apr&egrave;s son assassinat, El Presidente met la touche finale &agrave; son &icirc;le.</li>
+	</ul>
+<h3>Missions</h3>
+Le jeu propose 20 missions, avec des objectifs particuliers divers, comme avoir un certain nombre d'argent, la popularit&eacute;, la satisfaction globale, la construction d'un ou de plusieurs b&acirc;timents particuliers, etc.
+<hr />
+<h2>Interface</h2>
+<h3>Vue Principale</h3>
+Tout comme dans Tropico 3, l'interface est classique : en bas &agrave; gauche se trouve la mini-carte, surmont&eacute;e des ic&ocirc;nes permettant d'acc&eacute;der au personnage d'"El Presidente", aux d&eacute;crets, a votre carnet personnel. Dans la partie basse &agrave; gauche, les indicateurs classiques sont aussi pr&eacute;sents&#160;: date, population, taux de satisfaction globale. Juste &agrave; c&ocirc;t&eacute; se trouvent le contr&ocirc;le de la vitesse du jeu (Pause + 3 vitesses). Les objectifs en cours s'empileront dans le coin en bas &agrave; gauche de l'&eacute;cran, montrant l'avancement de la r&eacute;alisation de l'objectif, et disparaissant &agrave; leur r&eacute;ussite. De m&ecirc;me que dans Tropico 3, les &eacute;v&egrave;nements importants seront signal&eacute;s par des messages &eacute;crits en blanc au milieu de l'&eacute;cran. Ces &eacute;v&egrave;nements sont notamment :
+	<ul>
+		<li>Nombre d'immigrants &agrave; l'arriv&eacute;e d'un bateau (+ nombre d'experts &eacute;trangers)</li>
+		<li>Bilan financier des Importation/Exportation au d&eacute;part d'un bateau</li>
+		<li>Aides financi&egrave;res &eacute;trang&egrave;res</li>
+		<li>Nouveaux rebelles</li>
+		<li>Attaque de rebelles</li>
+		<li>Morts exceptionnelles (famine)</li>
+		<li>Citoyen &eacute;tant devenu criminel</li>
+		<li>Nombre de citoyens quittant l'&icirc;le</li>
+		<li>Nombre de touristes arriv&eacute;s</li>
+	</ul>
+</article>
+<br />
 
-</p>
+
+
 <hr />
 <br />
-<p id="citation">
-</p>
+<aside id="citation">
+Des citations (g&eacute;n&eacute;ralement humoristique) sont affich&eacute;es al&eacute;atoirement lors du chargement d'une partie, cliquez sur le bouton pour en lire une.
+</aside>
 <input type="button" value="Citation al&eacute;atoire" onclick="citationaleatoire()">
 <br />
 <br />
 <br />
 <br />
-<div id="pageprec"><a href="index.html">Introduction<br /><img src="../media/tropico_4_cover.png"/></a></div>
-<div id="pagesuiv"><a href="index.html">Personnages<br /><img src="../media/penultimo.png"/></a></div>
+<nav class="boutonnav">
+<input class="boutonpos" type="button" value="Pr&eacute;c&eacute;dent" onclick="location.href='index.html';" />
+<input class ="boutonpos" type="button" value="Suivant" onclick="location.href='perso.html';" />
+<br  />
+<br  />
+<a href="#2" id="revenir">Revenir au sommaire</a>
+</nav>
+
+<br />
+<br />
+<br />
+
+<footer>Site cr&eacute;&eacute; par Alexandre Porcherot et Th&eacute;otime Philippe - 2016
+<br />
+Sources : Wikipedia, tropico.wikia
+</footer>
 <script type="text/javascript" src="../javascript/citations.js"></script>
 </body>
 </html> 

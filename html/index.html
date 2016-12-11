@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
-	<script src="script.js"></script>
+	<meta name="author" content="Alexandre Porcherot, Theotime Philippe">
 	<title>Tropico 4</title>
 	<link rel="stylesheet" type="text/css" href="../css/index.css"/>
  </head>
@@ -13,93 +13,102 @@
 	<h3><a href="http://www.kalypsomedia.com/">Site de l'&eacute;diteur</a></h3>
  
 	<h3><a href="http://store.steampowered.com/app/57690/?l=french">Acheter le jeu</a></h3>
+	
+	<p id="aujourdhui"></p>
 </header>
 
-<section class="titresommaire">
-	<p>
-	Tropico 4
-	<br />
+<section class="titre" >
+	<h1>Tropico 4</h1>
 	<img src="../media/tropico_4_cover.png" alt="Ne peut afficher l'image"/>
-		<section id="musique">
-		La musique du menu :
+	<section id="musique">
+		<h2>La musique du menu du jeu :</h2>
 		<br />
-			<audio controls>
-				<source  src="../media/tropico_4_music.mp3" type="audio/mpeg">
-				Votre navigateur ne supporte pas cet &eacute;l&eacute;ment.
-				</source>
-			</audio>
-		</section>
+		<br />
+		<audio controls id="debut">
+			<source  src="../media/tropico_4_music.mp3" type="audio/mpeg">Votre navigateur ne supporte pas cet &eacute;l&eacute;ment.
+		</audio>
+		<br />
+		<input type="button" onclick="debut()" value="relancer musique"/>
+	</section>
 	<br />
-	<hr />
-	</p>
 </section>
 
+<hr />
+
 <article class="article">
-<p>
-Tropico 4 est un jeu sorti en 2011 sur PC et Xbox 360, développé par Haemimont Games et publié par Kalypso Media. 
-Le concept du jeu est de gérer une république bananière installée sur une île des Caraïbes pendant la Guerre froide,
-en incarnant soit un avatar d'une figure emblématique de l'époque (Fidel Castro, Augusto Pinochet, Che Guevara …),
-soit en créant son propre dictateur.
+<h2>Introduction</h2>
+Tropico 4 est un jeu sorti en 2011 sur PC et Xbox 360, d&eacute;velopp&eacute; par Haemimont Games et publi&eacute; par Kalypso Media. 
+Le concept du jeu est de g&eacute;rer une r&eacute;publique banani&egrave;re install&eacute;e sur une &icirc;le des Cara&iuml;bes pendant la Guerre froide,
+en incarnant soit un avatar d'une figure embl&eacute;matique de l'&eacute;poque (Fidel Castro, Augusto Pinochet, Che Guevara …),
+soit en cr&eacute;ant son propre dictateur.
 <br />
 <br />
 Tropico 4 renoue avec l'univers du 3e opus.
 <br />
-Le joueur étant invité à incarner ou à créer un dictateur de République bananière. Il est accompagné de tout ce qui caractérise un gouvernement autoritaire parfaitement assumé, 
-notamment un contrôle absolu sur les médias. Juanito, l'animateur radio du 3e opus présumé mort, est remplacé par votre dévoué conseiller-admirateur Penultimo avec Sunny Flowers, 
-une écologiste, aux manettes de la radio insulaire TNT (Tropico News Today), où le mot d'ordre est l'humour.
+Le joueur &eacute;tant invit&eacute; &agrave; incarner ou &agrave; cr&eacute;er un dictateur de R&eacute;publique banani&egrave;re. Il est accompagn&eacute; de tout ce qui caract&eacute;rise un gouvernement autoritaire parfaitement assum&eacute;, 
+notamment un contr&ocirc;le absolu sur les m&eacute;dias. Juanito, l'animateur radio du 3e opus pr&eacute;sum&eacute; mort, est remplac&eacute; par votre d&eacute;vou&eacute; conseiller-admirateur Penultimo avec Sunny Flowers, 
+une &eacute;cologiste, aux manettes de la radio insulaire TNT (Tropico News Today), o&ugrave; le mot d'ordre est l'humour.
 <br />
 <br />
 
-Le cynisme et l'humour noir sont la marque de fabrique de la série, avec en conséquence une classification "Mature" par l'ESRB. Le premier opus disposait aussi du logo "Langage grossier" 
+Le cynisme et l'humour noir sont la marque de fabrique de la s&eacute;rie, avec en cons&eacute;quence une classification "Mature" par l'ESRB. Le premier opus disposait aussi du logo "Langage grossier" 
 qui a depuis disparu (mais que vous retrouverez si vous commandez Tropico Reloaded, contenant Tropico 1, 2 et 3).
 <br />
 <br />
 
-TNT inspire à l'humour en présentant de courts conflits d’intérêts sur un ton décalé, ainsi que des réactions sur vos décisions politiques toujours abordées avec humour (précisons que Penultimo 
-vous défendra toujours, arguments désespérés à l'appui).
+TNT inspire &agrave; l'humour en pr&eacute;sentant de courts conflits d’int&eacute;r&ecirc;ts sur un ton d&eacute;cal&eacute;, ainsi que des r&eacute;actions sur vos d&eacute;cisions politiques toujours abord&eacute;es avec humour (pr&eacute;cisons que Penultimo 
+vous d&eacute;fendra toujours, arguments d&eacute;sesp&eacute;r&eacute;s &agrave; l'appui).
 <br />
 <br />
 
-Sunny Flowers, activiste en faveur de l'écologie, propose un contrepoids (léger) aux paroles de Penultimo. Elle émet parfois quelques doutes sur le bien-fondé d'une situation ou de certaines actions, 
-ce à quoi Penultimo s'empresse de répondre en justifiant l'ensemble de manière désastreuse mais engagée.
+Sunny Flowers, activiste en faveur de l'&eacute;cologie, propose un contrepoids (l&eacute;ger) aux paroles de Penultimo. Elle &eacute;met parfois quelques doutes sur le bien-fond&eacute; d'une situation ou de certaines actions, 
+ce &agrave; quoi Penultimo s'empresse de r&eacute;pondre en justifiant l'ensemble de mani&egrave;re d&eacute;sastreuse mais engag&eacute;e.
 <br />
 <br />
 
-Tropico 4 renforce cette critique du pouvoir absolu par l'humour en illustrant les écrans de chargement de citations d'hommes célèbres (majoritairement des politiciens) sur la politique ainsi que des 
-dictateurs passés.
-</p>
+Tropico 4 renforce cette critique du pouvoir absolu par l'humour en illustrant les &eacute;crans de chargement de citations d'hommes c&eacute;l&egrave;bres (majoritairement des politiciens) sur la politique ainsi que des 
+dictateurs pass&eacute;s.
 </article>
-
-<nav>
+<nav class="sommaire">
+<h1 class="sommaireh">Sommaire</h1>
 	<hr />
 	<br />
 	<figure>
 		<a href="gameplay.html">
-			<img class="sommaireimg1" src="../media/gameplay.jpg" alt="Ne peut afficher l'image" />
+			<img class="sommaireimg" src="../media/gameplay.jpg" alt="Ne peut afficher l'image" />
 		</a>
-		<a href="perso.html">
-			<img class="sommaireimg2" src="../media/penultimo.png" alt="Ne peut afficher l'image" />
-		</a>
-		<a href="dlc.html">
-		<img class="sommaireimg3" src="../media/dlc.png" alt="Ne peut afficher l'image" />
-		</a>
-		<a href="gameplay.html">
-			<figcaption class="sommairelgd1">Syst&egrave;me de jeu</figcaption>
-		</a>
-		<a href="perso.html">
-			<figcaption class="sommairelgd2">Personnages</figcaption>
-		</a>
-		<a href="dlc.html">
-			<figcaption class="sommairelgd3">Contenu suppl&eacute;mentaire</figcaption>
-		</a>
+			<figcaption class="sommairelgd" id="sommairelgd1">
+				<a href="gameplay.html">Syst&egrave;me de jeu</a>
+			</figcaption>
 	</figure>
+	<figure>
+		<a href="perso.html">
+			<img class="sommaireimg" src="../media/penultimo.png" alt="Ne peut afficher l'image" />
+		</a>
+			<figcaption class="sommairelgd" id="sommairelgd2">
+				<a href="perso.html">Personnages</a>
+			</figcaption>
+	</figure>
+	<figure>
+		<a href="dlc.html">
+			<img class="sommaireimg" src="../media/dlc.png" alt="Ne peut afficher l'image" />
+		</a>
+			<figcaption class="sommairelgd" id="sommairelgd3">
+				<a href="dlc.html">Contenu suppl&eacute;<wbr>mentaire</a></figcaption>
+	</figure>
+	<hr />
+	<br />
 </nav>
 
 <br />
 <br />
 <br />
 
-<footer>Site cr&eacute;&eacute; par Alexandre Porcherot et Th&eacute;otime Philippe. - 2016
+<footer>Site cr&eacute;&eacute; par Alexandre Porcherot et Th&eacute;otime Philippe - 2016
+<br />
+Sources : Wikipedia, tropico.wikia
 </footer>
+<script type="text/javascript" src="../javascript/jour.js"></script>
+<script type="text/javascript" src="../javascript/audio_debut.js"></script>
 </body>
 </html> 
