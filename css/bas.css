@@ -3,10 +3,10 @@
 }
 input{
     border-color:yellow;
-    color:red;
+    color:#000080;
     }
 .img{
-    background-image: ../media/questions.jpg;
+    background-color:#C0C0C0;
     
 }
 
