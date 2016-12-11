@@ -6,6 +6,14 @@
 	text-decoration:underline;
 }
 
+#survol:hover{
+	color:blue;
+	background:transparent;
+	border:1px;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
 input{
     border-color:yellow;
     color:#000080;
