@@ -3,7 +3,7 @@ body{
 	background-size:cover;
 	font-family:arial;
 }
-.titresommaire{
+.titre{
 	font-size:75px;
 	text-align:center;
 	text-decoration:underline;
@@ -13,31 +13,45 @@ ul{
 	font-size:x-large;
 	color:red;
 }
-.sommaireimg1{
-	margin-left:15%;
-	height:200px;
+.sommaireh{
+	text-align:center;
+}
+.sommaire{
+	background-color:#6D071A;
+	width:100%;
+}
+.sommaireimg{
+	height:300px;
 	width:auto;
 }
-.sommairelgd1{
-	margin-left:15%;
-	border:solid;
-	border-color:red;
+.sommairelgd{
+    display: table-cell;
+    vertical-align: bottom;
+	font-size:xx-large;
 }
-.sommaireimg2{
-	margin-left:25%;
-	height:200px;
-	width:auto;
+#sommairelgd1{
+	position:relative;
+	left:-370px;
+	top:-140px;
 }
-.sommairelgd2{
-	margin-left:40%;
+#sommairelgd2{
+	position:relative;
+	left:-210px;
+	top:-160px;	
 }
-.sommaireimg3{
-	margin-left:20%;
-	height:200px;
-	width:auto;
+#sommairelgd3{
+	position:relative;
+	left:-140px;
+	top:-110px;
+	width:200px;
+	height:auto;
 }
-.sommairelgd3{
-	margin-left:60%;
+
+a:visited{
+	color:blue;
+}
+a:active{
+	color:red;
 }
 .article{
 	background-color:white;
@@ -47,6 +61,7 @@ ul{
 	padding-bottom:1.5%;
 	margin-left:5%;
 	margin-right:5%;
+	border: solid black;
 }
 #musique{
 	text-decoration:none;
@@ -57,6 +72,23 @@ footer{
 	margin-left:30%;
 	margin-right:30%;
 	margin-bottom:20px;
+	padding-bottom:10px;
+	padding-top:10px;
 	color:red;
 	font-size:large;
+	border:solid black;
+	background-color:white;
+}
+figure {
+    display: inline;
+}
+figcaption {
+    padding-left: 4px;
+}
+#aujourdhui{
+	position:absolute;
+	top:15px;
+	right:5%;
+	color:darkgreen;
+	font-size:22px;
 }

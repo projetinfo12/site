@@ -3,32 +3,50 @@ body{
 	background-size:cover;
 	font-family:arial;
 }
-.article{
-	background-color:white;
-	padding-left:10%;
-	padding-right:10%;
-	padding-top:1.5%;
-	padding-bottom:1.5%;
-	margin-left:5%;
-	margin-right:5%;
-	border: solid black;
+.sommaire{
+	background-color:yellowgreen;
+	font-size:20px;
 }
-#citation{
-	border: solid #8B4513 5px;
-	background-color:#CD853F;
-	color:white;
-	width:900px;
-	height:3em;
-}
+/*.sommaire{
+	background-color:yellowgreen;
+	font-size:x-large;
+	color:red;
+}*/
 #pageprec{
-	position: absolute;
-    left: 50px;
-    bottom: 50px;
+	margin-left:10%;
+	display:inline;
 }
 #pagesuiv{
-	position: absolute;
-    right: 50px;
-    bottom: 50px;
+	padding-left:50%;
+	display:inline;
+}
+#tableaudlc{
+	border:solid black;
+	border-collapse:collapse;
+	float:left;
+	background-color:white;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+th, td{
+	border:solid black;
+	border-collapse:collapse;
+	text-align:center;
+}
+#titresommaire{
+	padding-top:15px;
+	text-align:center;
+	font-size:35px;
+}
+.article{
+	background-color:white;
+	padding-top:1.5%;
+	padding-bottom:1.5%;
+	border: solid black;
+}
+.article2{
+	position:relative;
+	left:20px;
 }
 footer{
 	text-align:center;
@@ -43,7 +61,7 @@ footer{
 	background-color:white;
 }
 .boutonpos{
-	width:250px;
+	width:275px;
 	height:100px;
 	font-size:xx-large;
 }
