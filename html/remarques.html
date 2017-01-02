@@ -7,7 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="../css/remarques.css">
 </head>
 <body>
-	<h1 class="titre"> Remarques et Cie... </h1>	
+	<h1 class="titre"> Remarques et Cie... </h1>
+<img src="../media/questions.jpg" alt="Ne peut afficher cet &eacute;l&eacute;ment" id="questions"><img>
 <form method="post" action="mailto:toto@gmail.com">
 	<label for="email">Adresse e-mail * : </label>
 		<input type="email" required="required" name="email" value="mail" id="email"/>
@@ -27,8 +28,9 @@
 	<label for="paysvillecp">Pays, Ville et code postal * : </label>
 		<input type="text" required="required" name="text" value="" id="paysvillecp"/>
 		<br><br>
-	<label for="couleur">Choisissez votre couleur : </label>
-		<input type="color" value="#fad345" name="textcolor" id="couleur"/>
+	<label for="couleur" >Choisissez votre couleur : </label>
+		<input  type="color" value="#FAD345" name="textcolor" id="couleur"/>
+		<input type="button" value="Changer couleur" onclick="c()">
 		<br><br>
 	<p class="sousligne">Sexe :</p>
 	<label for="homme">Homme</label>
@@ -49,6 +51,18 @@
 	<input type="reset" class="survol" value="reset">
 
 </form>
-<br>
+
+<br />
+<br />
+<br />
+
+<footer>Site cr&eacute;&eacute; par Alexandre Porcherot et Th&eacute;otime Philippe - 2016
+<br />
+Sources : Wikipedia, tropico.wikia
+</footer>
+
+<script type="text/javascript" src="../javascript/couleur.js"></script>
+
 </body>
+
 </html>
