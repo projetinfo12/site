@@ -6,7 +6,7 @@
 	text-decoration:underline;
 }
 
-.survol:hover{
+#survol:hover{
 	color:blue;
 	background:transparent;
 	border:1px;
@@ -31,11 +31,11 @@ textarea{
 
 .titre{
     color:#8A2BE2;
-    font-weight:bolder;  
+    font-weight:bold;  
 }
 
 body{
-    background-image:url("../media/questions.jpg");
+    //background-image:url("../media/questions.jpg");
     color:MidnightBLue;
     font-weight:bold; 
     text-decoration:overline white;
@@ -52,4 +52,21 @@ label{
 	display: inline;
 	width: 150px;
 	float: left;
+}
+#questions{
+	padding-bottom:25px;
+	position:relative;
+	left:100px;
+}
+footer{
+	text-align:center;
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom:20px;
+	padding-bottom:10px;
+	padding-top:10px;
+	color:red;
+	font-size:large;
+	border:solid black;
+	background-color:white;
 }
